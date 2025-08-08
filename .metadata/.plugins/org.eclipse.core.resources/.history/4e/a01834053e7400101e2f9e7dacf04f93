@@ -1,0 +1,5 @@
+package com.wipro.letsgo.repository;
+
+public class VehicleMovementRepository {
+
+}
