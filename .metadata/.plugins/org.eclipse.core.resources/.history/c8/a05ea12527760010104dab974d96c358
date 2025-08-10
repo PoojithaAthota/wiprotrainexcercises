@@ -1,0 +1,28 @@
+package com.wipro.test;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+public class StringUtil {
+
+    @Test
+    void testUpperCaseTrue() {
+        assertTrue(StringUtil.isUpperCase("HELLO"), "Should return true for all uppercase");
+    }
+
+    @Test
+    void testUpperCaseFalse() {
+        assertFalse(StringUtil.isUpperCase("Hello"), "Should return false for mixed case");
+    }
+
+    @Test
+    void testWithEmptyString() {
+        assertTrue(StringUtil.isUpperCase(""), "Empty string is considered uppercase");
+    }
+
+    @Test
+    void testWithNull() {
+        assertFalse(StringUtil.isUpperCase(null), "Null should return false");
+    }
+}
+

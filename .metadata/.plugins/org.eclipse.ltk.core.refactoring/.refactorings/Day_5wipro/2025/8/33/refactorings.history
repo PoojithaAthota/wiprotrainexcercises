@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.wipro.annonymous.Check&apos; to &apos;CheckCase&apos;&#x0D;&#x0A;- Original project: &apos;Day_5wipro&apos;&#x0D;&#x0A;- Original element: &apos;com.wipro.annonymous.Check&apos;&#x0D;&#x0A;- Renamed element: &apos;com.wipro.annonymous.CheckCase&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Check&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.wipro.annonymous{Check.java[Check" matchStrategy="1" name="CheckCase" qualified="false" references="true" similarDeclarations="false" stamp="1754855601133" textual="false" version="1.0"/>
+</session>
